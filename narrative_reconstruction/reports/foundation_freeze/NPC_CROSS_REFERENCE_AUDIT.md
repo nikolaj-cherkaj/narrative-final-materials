@@ -1,9 +1,12 @@
 # NPC CROSS-REFERENCE AUDIT — FOUNDATION FREEZE
 ## Аудит NPC и межпакетных состояний
 
-**Версия:** `ac2b8de48a74186a1c43dca18882d0e080200366`  
-**Источник реестра:** `canon/CHARACTERS.md` — 386 строк таблицы, **385 уникальных ID** (дубль `NPC-0428`), 46 NPC с упоминанием более чем в одном пакете.  
+**Версия:** `ac2b8de48a74186a1c43dca18882d0e080200366`
+
+**Источник реестра:** `canon/CHARACTERS.md` — 386 строк таблицы, **385 уникальных ID** (дубль `NPC-0428`), 46 NPC с упоминанием более чем в одном пакете.
+
 **Связанные отчёты:** `FOUNDATION_FREEZE_REPORT.md`, `QUEST_DEPENDENCY_GRAPH.md`, `WORLD_SYSTEMS_AUDIT.md`.
+
 
 ---
 

@@ -1,8 +1,10 @@
 # REGRESSION FINDINGS — FOUNDATION FREEZE
 ## Проверка предыдущих аудитов: что исправлено, что осталось, что сломалось
 
-**Версия:** `ac2b8de48a74186a1c43dca18882d0e080200366`  
+**Версия:** `ac2b8de48a74186a1c43dca18882d0e080200366`
+
 **Связанные отчёты:** `FOUNDATION_FREEZE_REPORT.md`, `FLAG_LIFECYCLE_MATRIX.md`, `NPC_CROSS_REFERENCE_AUDIT.md`.
+
 
 ---
 

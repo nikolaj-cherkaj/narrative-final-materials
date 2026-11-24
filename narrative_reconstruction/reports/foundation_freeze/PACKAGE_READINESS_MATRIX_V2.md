@@ -1,9 +1,12 @@
 # PACKAGE READINESS MATRIX V2 — FOUNDATION FREEZE
 ## Готовность 36 пакетов к художественной редактуре
 
-**Версия:** `ac2b8de48a74186a1c43dca18882d0e080200366`  
-**Статусы:** `READY` — полностью проверен, проблем нет; `READY WITH MINOR ISSUES` — только MEDIUM/LOW, не блокируют редактуру; `BLOCKED` — есть HIGH-проблема; `NOT FULLY AUDITED` — не присвоен ни одному пакету.  
+**Версия:** `ac2b8de48a74186a1c43dca18882d0e080200366`
+
+**Статусы:** `READY` — полностью проверен, проблем нет; `READY WITH MINOR ISSUES` — только MEDIUM/LOW, не блокируют редактуру; `BLOCKED` — есть HIGH-проблема; `NOT FULLY AUDITED` — не присвоен ни одному пакету.
+
 **Связанные отчёты:** `FOUNDATION_FREEZE_REPORT.md`, `AUDIT_COVERAGE_MATRIX.md`, `FLAG_LIFECYCLE_MATRIX.md`.
+
 
 ---
 
@@ -60,6 +63,7 @@
 | **NOT FULLY AUDITED** | **0** | — |
 
 **Проверка суммы:** 5 + 22 + 9 = 36. Статус каждого пакета соответствует строке таблицы выше: P35/P36 имеют только системный fail-tail (MEDIUM), поэтому они в `READY WITH MINOR ISSUES`, а не в `READY`.
+
 
 ---
 
