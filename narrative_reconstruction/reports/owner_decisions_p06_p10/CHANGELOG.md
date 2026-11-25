@@ -1,9 +1,9 @@
 # CHANGELOG — OWNER DECISIONS P06–P10
 
-**Дата:** 2026-11-25  
-**Вихідна гілка:** `agent/integration-p06-p10-fix-2aa9766`  
-**Вихідний SHA:** `cfccb15cd0cd32ea7191326910bbd1ad3d3d03ab`  
-**Робоча гілка:** `agent/owner-decisions-p06-p10-20261125-cfccb15`  
+**Дата:** 2026-11-25
+**Вихідна гілка:** `agent/integration-p06-p10-fix-2aa9766`
+**Вихідний SHA:** `cfccb15cd0cd32ea7191326910bbd1ad3d3d03ab`
+**Робоча гілка:** `agent/owner-decisions-p06-p10-20261125-cfccb15`
 **Робочий коміт:** `863d122` (змістовний коміт); фінальний коміт із цим CHANGELOG — наступний у гілці.
 
 ---
