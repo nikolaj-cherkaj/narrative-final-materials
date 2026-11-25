@@ -4,7 +4,7 @@
 
 - Начальный номер пакета: `1`
 - Конечный номер пакета: `5`
-- Обозначение группы: `целевая группа`
+- Обозначение группы: `P01–P05`
 - Целевые файлы: `naratyvni_teksty_paket_1.md` … `naratyvni_teksty_paket_5.md`
 - Каталог отчётов: `narrative_reconstruction/reports/integration_p01_p05/`
 - Имя ветки проверки и исправлений: `agent/integration-p01-p05`
