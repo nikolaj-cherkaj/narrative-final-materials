@@ -19,8 +19,8 @@
 
 ## 3. Коммит(ы)
 
-- Коммит 1 (изменения + 5 отчётов): сообщение `fix: point low remediation P26-P30 (GA2-P28-001, GA2-DOC-001, GA2-DOC-002)` — SHA заполняется после коммита (см. §5).
-- Коммит 2 (этот файл с итогами): `docs: record low remediation git state` — при необходимости.
+- Коммит 1 (изменения + 6 отчётов): `17ee593` — `fix: point low remediation P26-P30 (GA2-P28-001, GA2-DOC-001, GA2-DOC-002); reports integration_p26_p30_low_remediation` (10 файлов: P28 + 3 документа + 6 отчётов).
+- Коммит 2 (этот файл с итогами): `docs: record low remediation git state` — данный коммит.
 
 ## 4. Push
 
@@ -30,6 +30,6 @@
 ## 5. Итог (заполняется после коммита и push)
 
 - Исходная ветка / HEAD: `agent/integration-p26-p30-remediation-d3dd245` / `d2b4e5dfd25d152f0cfe817355abd90d2c28dd68`
-- Новая ветка / HEAD: `agent/integration-p26-p30-low-remediation-20261126` / (после коммита)
-- SHA коммита: (после коммита)
-- Push: (после push)
+- Новая ветка / HEAD: `agent/integration-p26-p30-low-remediation-20261126` / (см. коммит 2 после push)
+- SHA коммита: `17ee593` (фикс) + коммит состояния (этот файл)
+- Push: выполняется после коммита состояния; результат фиксируется выводом push
