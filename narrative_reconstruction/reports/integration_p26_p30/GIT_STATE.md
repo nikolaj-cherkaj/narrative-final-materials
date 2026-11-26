@@ -32,8 +32,10 @@
 ## 4. Коміти
 | SHA | Повідомлення | Зміст |
 |---|---|---|
-| `91bb435` | `fix: integrate P26-P30 - cross-package flags, P15/P28 gift logic, final setups, accessibility; reports integration_p26_p30 (INTEGRATION GO)` | P26–P30, FLAG_REGISTRY, CHARACTERS, GLOBAL_CARRYOVER_REGISTER, changelog, backups, 7 звітів |
-| наступний | `docs: add P26-P30 git state and changed-files manifest` | `GIT_STATE.md`, `CHANGED_FILES.md`, фінальні статуси |
+| `91bb435` | `fix: integrate P26-P30 - cross-package flags, P15/P28 gift logic, final setups, accessibility; reports integration_p26_p30 (INTEGRATION GO)` | P26–P30, FLAG_REGISTRY, CHARACTERS, GLOBAL_CARRYOVER_REGISTER, changelog, backups, звіти |
+| `d7db2de` | `docs: add P26-P30 git state, changed-files manifest and final status` | `GIT_STATE.md`, `CHANGED_FILES.md`, фінальні статуси |
+| `67cb89b` | `fix: align P26-P30 repeat states with all finals; refresh remediation report` | P27/P29/P30 повтори; `REMEDIATION_RESULT.md` |
+| `299c88f` | `docs: record final P26-P30 content commit` | фіксація SHA у звітах |
 
 ## 5. Перевірки Git
 - `git diff --check` — 0.
@@ -48,6 +50,6 @@
 - `canon/FLAG_REGISTRY.md`, `canon/CHARACTERS.md`, `reports/GLOBAL_CARRYOVER_REGISTER.md`.
 - `change_log/CHANGELOG_2026-11-26_INTEGRATION_P26_P30.md`.
 - 5 резервних копій `original_backup/…_pre_integration_p26_p30_2026-11-26.md`.
-- `reports/integration_p26_p30/` — 7 файлів.
+- `reports/integration_p26_p30/` — 9 файлів (6 обов'язкових + `OWNER_QUESTIONS.md`, `GIT_STATE.md`, `CHANGED_FILES.md`).
 
 Повний перелік — `CHANGED_FILES.md`.
