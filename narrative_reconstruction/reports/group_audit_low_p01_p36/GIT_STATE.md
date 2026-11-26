@@ -25,9 +25,9 @@
 
 ## 4. Коміти аудиту (поверх `fe1c42f`)
 
-1. `docs: independent group audit AUD-LOW-01…03 (9 verification reports, CONDITIONAL GO)` — 9 нових файлів `narrative_reconstruction/reports/group_audit_low_p01_p36/`.
+1. `d021c73` — `docs: independent group audit AUD-LOW-01…03 (9 verification reports, CONDITIONAL GO)` — 9 нових файлів `narrative_reconstruction/reports/group_audit_low_p01_p36/` (лише вставки).
 
 ## 5. Фінальний стан і push
 
-- Підсумковий HEAD аудиту: _(див. висновок сесії після push)_.
-- Push: `git push -u origin agent/audit-low-aud01-03-p01-p36-20261126` — _(див. висновок сесії)_.
+- Підсумковий HEAD аудиту: `d021c73f465157181ec9bee0b0c559deb782b5b7` (поверх `fe1c42f213eaf23d3580cfd3c96e34f9c158dbd0`).
+- Push: `git push -u origin agent/audit-low-aud01-03-p01-p36-20261126` — виконано, гілка створена в origin (up to date).
