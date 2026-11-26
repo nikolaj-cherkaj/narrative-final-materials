@@ -85,7 +85,7 @@
 - `GA-FLAG-001` — **VERIFIED FIXED** (27/27, 44/44).
 - `GA-P29-001` — **VERIFIED FIXED**.
 - `GA-DOC-001`, `GA-DOC-002`, `GA-DOC-003`, `GA-P29-002`, `GA-P28-003`, `GA-LANG-001`, `GA-LANG-002` — **VERIFIED FIXED**.
-- 35 первоначальных findings: 30 VERIFIED FIXED, 5 OBS/OWNER (не блокируют).
+- 35 первоначальных findings: 30 VERIFIED FIXED, 5 ACCEPTED NON-BLOCKING (не блокируют).
 - `GC-P25-P26-001`, `GC-P13-P26-001`, `GC-P14-P15-P29-001`, P19→P28, P26/P27 Дуб — **CLOSED**.
 - `GC-P15-P28-001` — **CLOSED для прямого порядка**.
 
@@ -93,13 +93,13 @@
 
 ## 5. Что нельзя считать закрытым
 
-- `GC-P28-P15-REVERSE-001` — **NOT FIXED / NEEDS OWNER**.
+- `GC-P28-P15-REVERSE-001` — **NOT FIXED** (non-blocking при обязательном порядке; нужно решение владельца).
 - `GA-ACC-002` — **PARTIALLY FIXED** (P28:181).
-- `GA2-P15-001` — **scope, требует подтверждения**.
-- `GA2-P28-001` — **LOW редакционная неоднозначность**.
-- `GA2-DOC-001`, `GA2-DOC-002` — **LOW документационные**.
-- `GA-DOC-004`, `INT-OBS-01`, `INT-OBS-02`, `INT-OBS-05`, `INT-OBS-06` — **OBS/OWNER**, не блокируют.
-- `GA-ACC-001`, `GA-REWARD-001`, `GA2-P28-003`, `GA2-P29-001` — **OBS**, не блокируют.
+- `GA2-P15-001` — **NOT FIXED** (LOW scope; нужно подтверждение владельца).
+- `GA2-P28-001` — **NOT FIXED** (LOW; редакционная неоднозначность).
+- `GA2-DOC-001`, `GA2-DOC-002` — **NOT FIXED** (LOW; документационные).
+- `GA-DOC-004`, `INT-OBS-01`, `INT-OBS-02`, `INT-OBS-05`, `INT-OBS-06` — **ACCEPTED NON-BLOCKING** (owner decision pending).
+- `GA-ACC-001`, `GA-REWARD-001`, `GA2-P28-003`, `GA2-P29-001` — **ACCEPTED NON-BLOCKING**.
 
 ---
 
