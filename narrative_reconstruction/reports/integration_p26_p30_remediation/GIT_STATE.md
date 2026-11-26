@@ -18,9 +18,9 @@
 | Нова гілка ремедіації | `agent/integration-p26-p30-remediation-d3dd245` |
 | База нової гілки | `d3dd245459c4913f492fe290211ef0207d8cb30c` |
 | Контентний коміт | `3c081292cfd97d162e22e7c1de52e3176a7512ce` |
-| Документаційний коміт | наступний коміт у цій гілці (цей файл + фінальний статус) |
+| Документаційний коміт | `75b1dfa583207a9b60d4eb626d124571119f8c22` |
 | Push контентного коміту | `origin/agent/integration-p26-p30-remediation-d3dd245` — успішно |
-| Push документаційного коміту | див. фінальний рядок нижче |
+| Push документаційного коміту | `3c08129..75b1dfa` — успішно |
 
 ---
 
@@ -54,9 +54,13 @@ fix: targeted remediation P26-P30 (GA-P28-001 horn lifecycle, final actions, sta
 
 **Статистика:** 29 files changed, 13 907 insertions(+), 111 deletions(-).
 
-### 3.2. Документаційний коміт
+### 3.2. Документаційний коміт `75b1dfa`
 
-Містить цей `GIT_STATE.md`. Точний SHA — у `git log -1` після завершення.
+```
+docs: record P26-P30 remediation git state and report index
+```
+
+Містить `GIT_STATE.md`. Після нього може бути один службовий meta-коміт, який лише фіксує точний SHA цього файлу; він не змінює тексти пакетів.
 
 ---
 
@@ -87,7 +91,8 @@ git push -u origin agent/integration-p26-p30-remediation-d3dd245
 ## 6. Фінальний HEAD
 
 - Контентний HEAD: `3c081292cfd97d162e22e7c1de52e3176a7512ce`.
-- Фінальний HEAD після документаційного коміту — див. `git log -1 --oneline` у гілці `agent/integration-p26-p30-remediation-d3dd245`.
+- Документаційний HEAD: `75b1dfa583207a9b60d4eb626d124571119f8c22`.
+- Після службового meta-коміту точний HEAD — у `git log -1 --oneline` у гілці `agent/integration-p26-p30-remediation-d3dd245`.
 - Remote: `origin/agent/integration-p26-p30-remediation-d3dd245`.
 
 ---
