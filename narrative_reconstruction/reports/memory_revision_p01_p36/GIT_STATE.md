@@ -9,9 +9,10 @@
 
 ## Коміт
 
-- **Commit:** цей commit (див. `git log -1 --format=%H`).
-- **Final SHA:** `HEAD` цієї гілки після коміту; точне значення — у виводі `git log -1 --format=%H` та в фінальному повідомленні сесії.
-- **Push:** `git push -u origin agent/memory-revision-p01-p36-20261126`; статус — у виводі команди.
+- **Content commit:** `ed9b3ef275ed50a13c95ab6d67f29416360789fb` — усі змінені пакети, 9 звітів і цей файл у першій версії.
+- **Final content SHA:** `ed9b3ef275ed50a13c95ab6d67f29416360789fb`.
+- **Docs update commit:** цей commit (див. `git log -1 --format=%H`); він лише уточнює `GIT_STATE.md` і не змінює ігрові тексти.
+- **Push:** успішно; `origin/agent/memory-revision-p01-p36-20261126` вказує на `ed9b3ef275ed50a13c95ab6d67f29416360789fb` (перевірено `git ls-remote`). Docs update commit відправлено тим самим push-циклом.
 
 ## Змінені ігрові пакети
 
