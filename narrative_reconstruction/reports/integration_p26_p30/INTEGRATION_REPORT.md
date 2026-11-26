@@ -7,6 +7,7 @@
 **Вихідний HEAD:** `cd9df80b07439df55686aeecce76b7cf2e9e1d7d` (`agent/package-p30-20261126-8c9f913`)
 **Інтеграційний коміт:** `91bb435b9d5d38a3596bb8b35d67838d1042e565`
 **Коміт звітів:** `d7db2de135991c09c1c87bfba44dedf9e0c6cae5`
+**Фінальні правки повторів:** `67cb89ba624c5f441578d73df88a951e45d8bf57`
 **Push:** `origin/agent/integration-p26-p30-fix-cd9df80` (success; фінальний службовий коміт фіксації SHA — див. `GIT_STATE.md`)
 **Статус:** **INTEGRATION GO** (0 CRITICAL, 0 HIGH, 0 відкритих MEDIUM/LOW у межах групи; 6 OBS, 3 з них передані/прийняті)
 
