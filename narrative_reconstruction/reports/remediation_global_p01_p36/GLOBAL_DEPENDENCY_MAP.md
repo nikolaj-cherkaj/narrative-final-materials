@@ -13,7 +13,7 @@
 | # | Джерело | Стан | Споживач | Тип | Перевірка | Вердикт |
 |---|---|---|---|---|---|---|
 | 1 | P01 D-005 | `FLAG_P01_SAVA_DEBT_50/100` | P06 CRAFT-002 | M | P06:295 | PASS |
-| 2 ★ | P06 CRAFT-002 | гроші → лише `PAID`; обладунок → `PAID_ARMOR`; робота → `WORKED_OFF` | P01 D-005, D-015 | M | P06:311/314/317; P01:1102–1108 | **CLOSED (була LOW GA-006)** |
+| 2 ★ | P06 CRAFT-002 | гроші → лише `PAID`; обладунок → `PAID_ARMOR`; робота → `WORKED_OFF` | P01 D-015 | O | P06:311/314/317; P01:1102–1108 | **CLOSED (була LOW GA-006)** |
 | 3 | P01 D-006 | `FLAG_D006_REPENTED` | P02 D-020 | O | P02:991 | PASS |
 | 4 | P01 D-001/D-002 | `CHARCOAL_DELIVERED/BURNED` | P02 Q-010 | O | P02:778,908,912 | PASS |
 | 5 | P01 D-011 | `ILARION_SAVED/LOST` | P01 D-015; P06 LORE-001 | I | P01:1090–1093; P06:342 | PASS |
