@@ -5,6 +5,8 @@
 **Група:** P26–P30 (5 пакетів)
 **Гілка:** `agent/integration-p26-p30-fix-cd9df80`
 **Вихідний HEAD:** `cd9df80b07439df55686aeecce76b7cf2e9e1d7d` (`agent/package-p30-20261126-8c9f913`)
+**Інтеграційний коміт:** `91bb435b9d5d38a3596bb8b35d67838d1042e565`
+**Push:** `origin/agent/integration-p26-p30-fix-cd9df80` (success; додатковий docs-коміт — див. `GIT_STATE.md`)
 **Статус:** **INTEGRATION GO** (0 CRITICAL, 0 HIGH, 0 відкритих MEDIUM/LOW у межах групи; 6 OBS, 3 з них передані/прийняті)
 
 ---

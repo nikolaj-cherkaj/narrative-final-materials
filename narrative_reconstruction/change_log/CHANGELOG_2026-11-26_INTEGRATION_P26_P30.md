@@ -2,6 +2,7 @@
 
 **Гілка:** `agent/integration-p26-p30-fix-cd9df80` (від `cd9df80` — P30 artistic revision; ланцюг P26→P27→P28→P29→P30)
 **Дата:** 2026-11-26
+**Інтеграційний коміт:** `91bb435b9d5d38a3596bb8b35d67838d1042e565`
 **Звіти:** `narrative_reconstruction/reports/integration_p26_p30/`
 
 ## 1. Мета
