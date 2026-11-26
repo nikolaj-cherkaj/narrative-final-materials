@@ -12,6 +12,10 @@
 
 **Ветка аудита:** `agent/group-audit-p26-p30-d2b4e5d`
 
+**Контентный коммит отчётов:** `1fa2b382d61dd6951085e2ffe8dce554dc13885a`
+
+**Push:** `origin/agent/group-audit-p26-p30-d2b4e5d` — успешно
+
 **Каталог отчётов:** `narrative_reconstruction/reports/final_group_audit_p26_p30/`
 
 ---

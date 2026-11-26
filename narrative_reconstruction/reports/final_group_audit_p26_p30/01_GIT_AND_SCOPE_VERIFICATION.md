@@ -120,9 +120,13 @@ ce7e1a2 fix: align P30 Q04 repeat phrase with fern final
 
 ---
 
-## 7. Ветка аудита
+## 7. Ветка аудита и публикация
 
 - Создана от `d2b4e5dfd25d152f0cfe817355abd90d2c28dd68`.
 - Имя: `agent/group-audit-p26-p30-d2b4e5d`.
 - В ветке сохраняются только отчёты в `narrative_reconstruction/reports/final_group_audit_p26_p30/`.
 - Игровые пакеты, канон, резервные копии и журналы не изменяются.
+- Контентный коммит отчётов: `1fa2b382d61dd6951085e2ffe8dce554dc13885a` (`docs: final independent group audit P26-P30 (d2b4e5d) - CONDITIONAL GO`).
+- Push: `origin/agent/group-audit-p26-p30-d2b4e5d` — успешно.
+- PR-ссылка: `https://github.com/nikolaj-cherkaj/narrative-final-materials/pull/new/agent/group-audit-p26-p30-d2b4e5d`.
+- Если после этого добавлен только мета-коммит с этим SHA, он не меняет игровые тексты; актуальный HEAD ветки — `git log -1`.
