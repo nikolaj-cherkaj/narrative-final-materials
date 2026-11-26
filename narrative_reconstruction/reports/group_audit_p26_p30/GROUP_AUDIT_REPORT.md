@@ -1,12 +1,19 @@
 # НЕЗАЛЕЖНИЙ ГРУПОВИЙ АУДИТ P26–P30
 
 **Дата:** 2026-11-26
+
 **Промпт:** `narrative_reconstruction/prompts/03_group_independent_audit.md`
+
 **Група:** P26–P30 (5 пакетів, 22 квести)
+
 **Гілка аудиту:** `agent/group-audit-p26-p30-d3dd245`
+
 **Перевірений HEAD:** `d3dd245459c4913f492fe290211ef0207d8cb30c`
+
 **Інтеграційний коміт:** `91bb435b9d5d38a3596bb8b35d67838d1042e565`
+
 **База:** `cd9df80b07439df55686aeecce76b7cf2e9e1d7d`
+
 **Каталог звітів:** `narrative_reconstruction/reports/group_audit_p26_p30/`
 
 ---

@@ -1,10 +1,15 @@
 # GIT-СТАН НЕЗАЛЕЖНОГО АУДИТУ P26–P30
 
 **Дата:** 2026-11-26
+
 **Репозиторій:** `https://github.com/nikolaj-cherkaj/narrative-final-materials`
+
 **Група:** P26–P30
+
 **Гілка аудиту:** `agent/group-audit-p26-p30-d3dd245`
+
 **База аудиту:** `d3dd245459c4913f492fe290211ef0207d8cb30c`
+
 **Каталог звітів:** `narrative_reconstruction/reports/group_audit_p26_p30/` (за прямим дорученням власника; обчислений за промптом № 03 варіант — `group_audit_p26_p30_d3dd245`)
 
 ---

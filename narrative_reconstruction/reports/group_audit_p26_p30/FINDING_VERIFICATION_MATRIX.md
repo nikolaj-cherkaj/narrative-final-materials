@@ -1,7 +1,9 @@
 # МАТРИЦЯ ПЕРЕВІРКИ ПОЧАТКОВИХ FINDINGS P26–P30
 
 **Дата:** 2026-11-26
+
 **Перевірений HEAD:** `d3dd245`
+
 **Джерела початкових findings:** `reports/integration_p26_p30/INTEGRATION_REPORT.md`, `REMEDIATION_RESULT.md`, `GLOBAL_CARRYOVER_REGISTER.md` §2.10.
 
 **Важливо:** інтеграційний звіт у підсумку каже «17 MEDIUM», але його таблиця містить 18 MEDIUM ID. Аудит перевіряє всі 18; розбіжність зафіксована як `GA-DOC-001`.
