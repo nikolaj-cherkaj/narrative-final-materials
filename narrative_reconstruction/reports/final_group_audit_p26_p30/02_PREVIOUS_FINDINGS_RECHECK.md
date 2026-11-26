@@ -93,7 +93,7 @@
 | `INT-OBS-01` «Дана» | **ACCEPTED NON-BLOCKING** (owner decision pending) | P28:265; в MYTHOLOGY/TERMINOLOGY/WORLD_CANON совпадений 0; текст не менялся |
 | `INT-OBS-02` два игумена | **ACCEPTED NON-BLOCKING** (owner decision pending) | P26:201 Мелхіседек; P27:275 Мелетій; прямого конфликта нет |
 | `INT-OBS-03` Устим P25/P26 | **VERIFIED FIXED (игра)** | P25:182, 200–201; P26:41, 50; P25-текст — `GA-DOC-004` |
-| `INT-OBS-04` обратный порядок | **NOT FIXED** (non-blocking при обязательном порядке) | P15:278 не читает `FLAG_P28_Q02_DONE`; см. `08_REMAINING_FINDINGS.md` `GA2-P28-002`; нужно решение владельца |
+| `INT-OBS-04` обратный порядок | **ACCEPTED NON-BLOCKING** (владелец: порядок `P15 → P28` обязателен, обратный сценарий не поддерживается, CHECK не нужен, 2026-11-26) | P15:278; см. `08_REMAINING_FINDINGS.md` `GA2-P28-002`, `10_OWNER_DECISIONS_RESPONSE.md` |
 | `INT-OBS-05` state дара P28 | **ACCEPTED NON-BLOCKING** (owner decision pending) | `FLAG_P28_Q02_VOICE` не создан; P28:218–221; future consumer |
 | `INT-OBS-06` Леся NEW | **ACCEPTED NON-BLOCKING** (owner decision pending) | `CHARACTERS.md:424`, `3526`; P29:173, 197; NEW |
 
@@ -107,8 +107,7 @@
 |---|---:|---:|---:|---:|---:|
 | VERIFIED FIXED | 6 | 18 | 5 | 1 (`INT-OBS-03`, игра) | 30 |
 | PARTIALLY FIXED | 0 | 0 | 0 | 0 | 0 |
-| ACCEPTED NON-BLOCKING | 0 | 0 | 0 | 4 (`INT-OBS-01`, `02`, `05`, `06`) | 4 |
-| NOT FIXED | 0 | 0 | 0 | 1 (`INT-OBS-04`) | 1 |
+| ACCEPTED NON-BLOCKING | 0 | 0 | 0 | 5 (`INT-OBS-01`, `02`, `04`, `05`, `06`) | 5 |
 | **Всего** | **6** | **18** | **5** | **6** | **35** |
 
 ### 4.2. 19 findings первоначального независимого аудита
@@ -124,9 +123,9 @@
 
 | ID | Приоритет | Статус |
 |---|---|---|
-| `GA2-P15-001` | LOW (scope) | **NOT FIXED** (non-blocking; нужно подтверждение владельца) |
+| `GA2-P15-001` | LOW (scope) | **CLOSED** (владелец разрешил сохранить правку, 2026-11-26) |
 | `GA2-P28-001` | LOW | **NOT FIXED** (non-blocking; редакционная правка) |
-| `GA2-P28-002` | MEDIUM | **NOT FIXED** (non-blocking при обязательном порядке; нужно решение владельца) |
+| `GA2-P28-002` | MEDIUM | **ACCEPTED NON-BLOCKING** (владелец: порядок `P15 → P28` обязателен, обратный сценарий не поддерживается, CHECK не нужен, 2026-11-26) |
 | `GA2-DOC-001` | LOW | **NOT FIXED** (non-blocking; исправить отчёт/текст) |
 | `GA2-DOC-002` | LOW | **NOT FIXED** (non-blocking; исправить реестр) |
 | `GA2-P25-001` | OBS | **ACCEPTED NON-BLOCKING** (передано) |
@@ -134,4 +133,4 @@
 | `GA2-P28-003` | OBS | **ACCEPTED NON-BLOCKING** (future consumer) |
 | `GA2-P29-001` | OBS | **ACCEPTED NON-BLOCKING** |
 
-**Вывод:** ни одного открытого CRITICAL/HIGH нет. Открыты: 1 MEDIUM (`GA2-P28-002`, обратный порядок), 1 LOW scope (`GA2-P15-001`), 2 LOW-документационных (`GA2-DOC-001/002`), 1 LOW-редакционный (`GA2-P28-001`), остальное — OBS.
+**Вывод:** ни одного открытого CRITICAL/HIGH нет. Открыты: 3 LOW (`GA2-P28-001`, `GA2-DOC-001`, `GA2-DOC-002`, все NOT FIXED non-blocking); `GA2-P15-001` закрыт решением владельца; `GA2-P28-002` принят как non-blocking решением владельца; остальное — OBS.
