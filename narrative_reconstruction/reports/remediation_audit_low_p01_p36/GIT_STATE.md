@@ -23,10 +23,10 @@
 ## 4. Коміти цієї гілки (поверх `5f8b89e`)
 
 1. `f75149e` — `fix: targeted remediation AUD-LOW-03 docs (8 flag cards, map row 2 consumer/type O, P08 SET 546, legend)`: 3 документальні файли (див. `REGRESSION_CHECK.md`).
-2. (Звіти) — 8 файлів `narrative_reconstruction/reports/remediation_audit_low_p01_p36/` — SHA фіксується після коміту (див. розділ 5).
+2. `a383bba` — `docs: targeted remediation reports AUD-LOW-01/02/03 (analysis, scenarios 13/13, regression, owner questions, git state)` — 8 файлів `narrative_reconstruction/reports/remediation_audit_low_p01_p36/`.
 
-## 5. Фінальний стан (заповнюється після push)
+## 5. Фінальний стан
 
-- Підсумковий HEAD: _див. `git log` гілки; звіти + виправлення поверх `5f8b89e`_.
-- Push в `origin`: _статус — див. висновок сесії_.
-- `git diff --check`: чисто. `git status`: лише очікувані коміти гілки.
+- Підсумковий HEAD: `a383bba` (+ фіналізація цього файлу — див. `git log` гілки); усі зміни — поверх `5f8b89e`.
+- Push в `origin`: виконано `git push -u origin agent/remediation-low-aud01-03-p01-p36-20261126` (статус — див. висновок сесії).
+- `git diff --check`: чисто.
