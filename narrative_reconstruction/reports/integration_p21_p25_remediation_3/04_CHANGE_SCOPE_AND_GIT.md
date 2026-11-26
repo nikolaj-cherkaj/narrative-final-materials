@@ -92,12 +92,12 @@ P05 BEST-005 / `GC-P21-P05-001` не затронут. P25 / `GC-P25-P26-001` н
 
 ## 5. Коммит и push
 
-Коммит ремедиации создан в ветке `agent/integration_p21-p25-fix-5ed927b` после подготовки отчётов. SHA и статус push фиксируются в `git log` ветки и в итоговом сообщении; ветка отправлена в `origin`, в `main` не сливалась.
+Коммит ремедиации создан в ветке `agent/integration_p21-p25-fix-5ed927b` после подготовки отчётов. SHA коммита и статус push: `7c3e9760e874016fbc8ce2cc20d02d85cb35ab5e`; `origin/agent/integration-p21-p25-fix-5ed927b` указывает на этот SHA; в `main` ничего не сливалось.
 
 История после коммита:
 
 ```text
-<remediation-sha> docs: targeted remediation P21-P25 (GA2-P23-001, GA2-P24-001) ...
+7c3e976 docs: targeted remediation P21-P25 (GA2-P23-001, GA2-P24-001) ...
 5ed927b docs: independent group audit P21-P25 (932e544) - GROUP AUDIT NO-GO ...
 932e544 fix: soften P22 Marena recognition to cover all P23 GOD-11 finals
 ...
