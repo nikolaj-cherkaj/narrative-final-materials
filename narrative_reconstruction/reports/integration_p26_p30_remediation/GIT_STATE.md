@@ -18,9 +18,10 @@
 | Нова гілка ремедіації | `agent/integration-p26-p30-remediation-d3dd245` |
 | База нової гілки | `d3dd245459c4913f492fe290211ef0207d8cb30c` |
 | Контентний коміт | `3c081292cfd97d162e22e7c1de52e3176a7512ce` |
-| Документаційний коміт | `75b1dfa583207a9b60d4eb626d124571119f8c22` |
+| Додатковий fix-коміт | `ce7e1a2153cb7d7262fb5d802ce9fc1785ec1201` (P30 Q04: повтор «цвіт» замість «стрибок») |
+| Документаційні коміти | `75b1dfa583207a9b60d4eb626d124571119f8c22`, `22b70615cab04dede648bef33e63b77071cee390`, `024fa5718b3c8024e2c2f2b6c6d08a4d58b63926` |
 | Push контентного коміту | `origin/agent/integration-p26-p30-remediation-d3dd245` — успішно |
-| Push документаційного коміту | `3c08129..75b1dfa` — успішно |
+| Push документаційних комітів | `3c08129..ce7e1a2` — успішно |
 
 ---
 
@@ -90,9 +91,10 @@ git push -u origin agent/integration-p26-p30-remediation-d3dd245
 
 ## 6. Фінальний HEAD
 
-- Контентний HEAD: `3c081292cfd97d162e22e7c1de52e3176a7512ce`.
-- Документаційний HEAD: `75b1dfa583207a9b60d4eb626d124571119f8c22`.
-- Після службового meta-коміту точний HEAD — у `git log -1 --oneline` у гілці `agent/integration-p26-p30-remediation-d3dd245`.
+- Основний контентний HEAD: `3c081292cfd97d162e22e7c1de52e3176a7512ce`.
+- Останній code-fix HEAD: `ce7e1a2153cb7d7262fb5d802ce9fc1785ec1201`.
+- Документаційні коміти: `75b1dfa`, `22b7061`, `024fa57`.
+- Після службового meta-коміту, який фіксує цей файл, точний HEAD — у `git log -1 --oneline` у гілці `agent/integration-p26-p30-remediation-d3dd245`.
 - Remote: `origin/agent/integration-p26-p30-remediation-d3dd245`.
 
 ---
