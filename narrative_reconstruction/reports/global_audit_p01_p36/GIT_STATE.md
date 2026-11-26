@@ -46,6 +46,8 @@
 | Коммит | Содержание | Статус |
 |---|---|---|
 | `fd9e9b81e1549625d2f7742635a539d8a3686966` | 13 отчётов + GIT_STATE | committed |
+| `08439a81521005ebbdbdb7489fa0306e0c76a45c` | фиксация SHA содержательного коммита | committed |
+| _(metadata commit, branch tip)_ | финальная фиксация push/HEAD в этом файле | committed |
 
 **Изменённые файлы:** только `narrative_reconstruction/reports/global_audit_p01_p36/*`.
 **Игровые тексты:** не изменялись.
@@ -60,7 +62,8 @@
 |---|---|
 | Remote | `origin` |
 | Ветка | `agent/global-audit-p01-p36-20261126` |
-| Push | _(будет заполнено после push)_ |
+| Push | **success** (`origin/agent/global-audit-p01-p36-20261126`, содержательный коммит `08439a8`) |
+| PR-ссылка | `https://github.com/nikolaj-cherkaj/narrative-final-materials/pull/new/agent/global-audit-p01-p36-20261126` |
 
 ---
 
