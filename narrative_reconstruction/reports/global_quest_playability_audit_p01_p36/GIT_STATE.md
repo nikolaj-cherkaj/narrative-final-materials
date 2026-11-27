@@ -4,9 +4,9 @@
 - Проверка актуальности: `git merge-base HEAD aaa24ef` в исходной директории = `c21dbd1` (HEAD — предок); `git diff c21dbd1..aaa24ef` — 82 файла (memory-revision всех 36 пакетов + канон + отчёты). Ветка-название единственным доказательством не использовалась.
 - Новая ветка: `agent/global-quest-playability-audit-p01-p36-20261127` (worktree `C:/Users/Nikolaj/AppData/Local/Temp/opencode/quest-playability-audit-p01-p36`; исходная директория не тронута, локальные изменения и незакоммиченные файлы сохранены на месте).
 - Коммит 1: `f790826` — 13 отчётов (без GIT_STATE), 1129 insertions, 0 deletions.
-- Коммит 2 (этот файл): см. `git log`.
-- Итоговый SHA: см. `git rev-parse HEAD` после коммита 2.
-- Push: `git push -u origin agent/global-quest-playability-audit-p01-p36-20261127` без force (статус — ниже).
+- Коммит 2: `2a13155` — этот файл (GIT_STATE).
+- Итоговый SHA: `2a13155915bb951a87c53e7ccc89728515f0d410`.
+- Push: `git push -u origin agent/global-quest-playability-audit-p01-p36-20261127` без force — **OK, ветка создана в origin** (без force-push).
 - Созданные файлы (14, только новые аудиторские документы):
   1. `GLOBAL_PLAYABILITY_SUMMARY.md`
   2. `PACKAGE_PLAYABILITY_MATRIX.md`
