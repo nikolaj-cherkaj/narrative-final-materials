@@ -21,6 +21,7 @@
 | R-01 | P09 | QUEST-03, Варіанти 1–3 / Этап 3 | потенциальный HIGH | OPEN RISK | CONFIRMED DEFECT | FIXED | VERIFIED | **CLOSED** |
 | R-02 | P32 | SEA-32-02, Этап 1 | низкий | OPEN RISK | REJECTED (NOT A DEFECT) | не требовалось | VERIFIED | **CLOSED** |
 | IV-01 | P31 | HEARTH-31-01, Этап 3 | LOW | NEW (independent) | CONFIRMED | FIXED | VERIFIED | **CLOSED** |
+| IV-02 | P31 | HEARTH-31-01, сценарий провала | LOW | NEW (independent) | CONFIRMED | FIXED | VERIFIED | **CLOSED** |
 
 ---
 
@@ -42,8 +43,9 @@
 | MEDIUM | 7 | 7 | 7 | 0 |
 | LOW | 2 | 2 | 2 | 0 |
 | LOW (IV-01, independent) | 0 | 1 | 1 | 0 |
+| LOW (IV-02, independent) | 0 | 1 | 1 | 0 |
 | Риски (R-02) | 1 | 0 (rejected) | 0 | 0 |
-| **Итого дефектов** | **10** | **11** | **11** | **0** |
+| **Итого дефектов** | **10** | **12** | **12** | **0** |
 
 ---
 
