@@ -35,7 +35,7 @@
 | `558f88a` | `fix: close final audit findings in P23/P35 and low residuals` | P23 — дар після трьох питань; P35 — крипта знову запечатана; P20/P36/P6/P19 — точкові уточнення (7 файлів, 12/12) |
 | `bba8d4b` | `fix: align P23 gift payoff with final branches` | P23 — прийняття дару перенесено у фінальну сцену; відлуння В отримує обіцяну силу джерел (1 файл, 2/2) |
 | `f8832cc` | `fix: make P35 crypt sealing explicit in final V` | P35 — гул дзвонів прямо запечатує крипту у фіналі В (1 файл, 1/1) |
-| _(буде заповнено після коміту)_ | `docs: add world continuity implementation reports` | звіти 00–11 |
+| `3a5f7f2` | `docs: add world continuity implementation reports` | звіти 00–11 (12 файлів, 1123 рядки) |
 
 ## 5. Push
 
@@ -43,7 +43,8 @@
 |---|---|
 | Remote | `origin` → `https://github.com/nikolaj-cherkaj/narrative-final-materials` |
 | Команда | `git push -u origin agent/world-continuity-implementation-p01-p36-20261127` |
-| Результат | _(буде заповнено)_ |
+| Результат | успішно; створено нову гілку на origin, upstream встановлено |
+| Останній змістовий SHA | `3a5f7f2` (docs), перед ним `f8832cc` (код) |
 | Force push | не використовувався |
 
 ## 6. Перелік змінених файлів
