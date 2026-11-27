@@ -20,9 +20,9 @@
 |---|---|---|
 | `11e8f7453723ff90a9f0651fbfde1e220462ba4a` | `merge: integrate fundamental narrative standard 20261127 into P01-P36 implementation` | 16 файлов стандарта и промптов; игровые тексты не тронуты |
 | `2dcbb7a3670c11bb9f97e26e0123e0caa9135001` | `docs: add final standard compliance audit P01-P36` | 11 отчётов + `CHECKSUMS.sha256` |
-| `THIS_METADATA_COMMIT` | `docs: record final audit SHA and push status` | обновление этого файла |
+| `8d0baf58325be459e5c6c18fa6260d322e62b6b5` | `docs: record report commit SHA in final audit state` | обновление этого файла |
 
-Основной отчётный коммит: `2dcbb7a3670c11bb9f97e26e0123e0caa9135001`. Метаданные о push фиксируются отдельным коммитом, чтобы не переписывать отчётный коммит.
+Основной отчётный коммит: `2dcbb7a3670c11bb9f97e26e0123e0caa9135001`. Метаданные о push зафиксированы коммитом `8d0baf5`. Финальный HEAD ветки после публикации указан в ответе владельцу.
 
 ## 3. Изменённые файлы аудита
 
@@ -56,7 +56,7 @@
 - Команда: `git push -u origin agent/final-standard-integration-p01-p36-20261127`
 - Force push: **не использовался**.
 - Merge в `main`: **не выполнялся**.
-- Статус push: **pending; фиксируется после отправки ветки**.
+- Статус push: **успешно**; ветка создана на `origin`, upstream установлен. Подтверждение: `git ls-remote --heads origin agent/final-standard-integration-p01-p36-20261127`.
 
 ## 6. Подтверждение
 
