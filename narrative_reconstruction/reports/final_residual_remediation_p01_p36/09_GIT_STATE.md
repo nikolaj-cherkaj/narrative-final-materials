@@ -84,7 +84,7 @@ git restore --source=origin/agent/fundamental-narrative-standard-20261127 -- nar
 
 | Параметр | Значение |
 |---|---|
-| SHA | заполняется после коммита |
+| SHA | `3a71bd9248684aba768bf175b73fbcd9300ff284` |
 | Сообщение | `docs: residual remediation reports and independent validation` |
 | Файлы | `narrative_reconstruction/reports/final_residual_remediation_p01_p36/00…10` |
 
@@ -92,7 +92,7 @@ git restore --source=origin/agent/fundamental-narrative-standard-20261127 -- nar
 
 | Параметр | Значение |
 |---|---|
-| SHA | заполняется после коммита |
+| SHA | финальный HEAD ветки после этого коммита (см. `git rev-parse HEAD`) |
 | Сообщение | `docs: record final git state` |
 | Файлы | `09_GIT_STATE.md` (финальные SHA и push-статус) |
 
@@ -104,7 +104,7 @@ git restore --source=origin/agent/fundamental-narrative-standard-20261127 -- nar
 |---|---|
 | Remote | `origin` |
 | Ветка | `agent/final-residual-remediation-p01-p36-20261127` |
-| Push-статус | заполняется после push |
+| Push-статус | **PUSH OK**: ветка создана на origin; после коммита 2 `origin/...` = `3a71bd9248684aba768bf175b73fbcd9300ff284` |
 | Merge в `main` | не выполнялся |
 | Force push | не выполнялся |
 
