@@ -11,6 +11,7 @@
 | Новая ветка | `agent/final-residual-remediation-p01-p36-20261127` |
 | Worktree | `C:\Users\Nikolaj\AppData\Local\Temp\opencode\final-residual-remediation-p01-p36-20261127` |
 | Коммит исправлений | `9f37c40e7ed53b0c26ff49ec927d62af2d52b092` |
+| Коммит независимой проверки / IV-01 | `3bcc12ec5bf19130e164251f7232dd9484753d11` |
 | Итоговый статус | **PASS** |
 
 ---

@@ -92,9 +92,25 @@ git restore --source=origin/agent/fundamental-narrative-standard-20261127 -- nar
 
 | Параметр | Значение |
 |---|---|
-| SHA | финальный HEAD ветки после этого коммита (см. `git rev-parse HEAD`) |
+| SHA | `9689746aad1b16248bc8e002d35fe5b3eaf77581` |
 | Сообщение | `docs: record final git state` |
-| Файлы | `09_GIT_STATE.md` (финальные SHA и push-статус) |
+| Файлы | `09_GIT_STATE.md` |
+
+### Коммит 4 — независимая проверка и исправление IV-01
+
+| Параметр | Значение |
+|---|---|
+| SHA | `3bcc12ec5bf19130e164251f7232dd9484753d11` |
+| Сообщение | `fix: P31 Q01 stage 3 wording (IV-01) and independent audit reports` |
+| Файлы | P31 Этап 3, changelog, отчёты 00, 01, 02, 05, 06, 07, 08, 10 |
+
+### Коммит 5 — финальная запись Git-состояния
+
+| Параметр | Значение |
+|---|---|
+| SHA | финальный HEAD ветки после этого коммита (см. `git rev-parse HEAD`) |
+| Сообщение | `docs: record final git state after independent audit` |
+| Файлы | `09_GIT_STATE.md` |
 
 ---
 
@@ -104,7 +120,7 @@ git restore --source=origin/agent/fundamental-narrative-standard-20261127 -- nar
 |---|---|
 | Remote | `origin` |
 | Ветка | `agent/final-residual-remediation-p01-p36-20261127` |
-| Push-статус | **PUSH OK**: ветка создана на origin; после коммита 2 `origin/...` = `3a71bd9248684aba768bf175b73fbcd9300ff284` |
+| Push-статус | **PUSH OK**: ветка создана на origin; после коммита 4 `origin/...` = `3bcc12ec5bf19130e164251f7232dd9484753d11`; после коммита 5 — финальный HEAD ветки |
 | Merge в `main` | не выполнялся |
 | Force push | не выполнялся |
 
@@ -152,5 +168,8 @@ git restore --source=origin/agent/fundamental-narrative-standard-20261127 -- nar
 - Стандарт: `agent/fundamental-narrative-standard-20261127` @ `b999b9b`.
 - Новая ветка: `agent/final-residual-remediation-p01-p36-20261127`.
 - Коммит 1: `9f37c40e7ed53b0c26ff49ec927d62af2d52b092`.
-- Коммиты 2–3 и push-статус: заполняются после выполнения.
+- Коммит 2: `3a71bd9248684aba768bf175b73fbcd9300ff284`.
+- Коммит 3: `9689746aad1b16248bc8e002d35fe5b3eaf77581`.
+- Коммит 4: `3bcc12ec5bf19130e164251f7232dd9484753d11`.
+- Коммит 5: финальный HEAD ветки (см. `git rev-parse HEAD`).
 - `main` не изменялся; merge не выполнялся.
