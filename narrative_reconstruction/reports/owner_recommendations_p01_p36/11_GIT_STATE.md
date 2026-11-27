@@ -9,8 +9,9 @@
 - **Новий worktree:** `C:/Users/Nikolaj/AppData/Local/Temp/opencode/owner-recommendations-p01-p36-20261127` (окрема директорія).
 - **Нова гілка:** `agent/owner-recommendations-p01-p36-20261127` від `40875e65a58079c276b9ff287e3a39aa890f9112`.
 - **Комміт 1:** `46b22bb92c99a01667ea316b5bd1eeca2085b35a` — 11 документів (00–10), 1782 insertions, 0 deletions.
-- **Комміт 2:** цей файл (`11_GIT_STATE.md`).
-- **Push:** `git push -u origin agent/owner-recommendations-p01-p36-20261127` — без force (результат див. у snippеті нижче / у консолі сесії).
+- **Комміт 2:** `64b6dc024c9c917b26fe407c6c118a63c8ebb87e` — цей файл (`11_GIT_STATE.md`).
+- **Фінальний SHA:** `64b6dc024c9c917b26fe407c6c118a63c8ebb87e`.
+- **Push:** `git push -u origin agent/owner-recommendations-p01-p36-20261127` — **OK**, нова гілка створена в origin (`* [new branch]`), без force-push; upstream встановлено.
 - **Створені файли (12, тільки нові аналітичні документи):**
   `00_RECOMMENDATIONS_EXECUTIVE_SUMMARY.md`,
   `01_OWNER_RECOMMENDATIONS_B01_B19.md`,
