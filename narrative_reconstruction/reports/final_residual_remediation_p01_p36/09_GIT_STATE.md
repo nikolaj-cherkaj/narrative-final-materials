@@ -108,8 +108,24 @@ git restore --source=origin/agent/fundamental-narrative-standard-20261127 -- nar
 
 | Параметр | Значение |
 |---|---|
-| SHA | финальный HEAD ветки после этого коммита (см. `git rev-parse HEAD`) |
+| SHA | `b93a82049acb46b7e2ea883f95f07f6f30be7129` |
 | Сообщение | `docs: record final git state after independent audit` |
+| Файлы | `09_GIT_STATE.md` |
+
+### Коммит 6 — IV-02 и синхронизация отчётов
+
+| Параметр | Значение |
+|---|---|
+| SHA | `53b4fdaadf36e2c1ea347bb500007e524052693f` |
+| Сообщение | `fix: P31 Q01 fail-loop wording (IV-02) and report sync` |
+| Файлы | P31 сценарий провала, changelog, отчёты 00, 01, 02, 05, 06, 07, 08, 10 |
+
+### Коммит 7 — финальная запись Git-состояния после IV-02
+
+| Параметр | Значение |
+|---|---|
+| SHA | финальный HEAD ветки после этого коммита (см. `git rev-parse HEAD`) |
+| Сообщение | `docs: finalize git state after IV-02` |
 | Файлы | `09_GIT_STATE.md` |
 
 ---
@@ -120,7 +136,7 @@ git restore --source=origin/agent/fundamental-narrative-standard-20261127 -- nar
 |---|---|
 | Remote | `origin` |
 | Ветка | `agent/final-residual-remediation-p01-p36-20261127` |
-| Push-статус | **PUSH OK**: ветка создана на origin; после коммита 4 `origin/...` = `3bcc12ec5bf19130e164251f7232dd9484753d11`; после коммита 5 — финальный HEAD ветки |
+| Push-статус | **PUSH OK**: ветка создана на origin; после коммита 6 `origin/...` = `53b4fdaadf36e2c1ea347bb500007e524052693f`; после коммита 7 — финальный HEAD ветки |
 | Merge в `main` | не выполнялся |
 | Force push | не выполнялся |
 
@@ -171,5 +187,7 @@ git restore --source=origin/agent/fundamental-narrative-standard-20261127 -- nar
 - Коммит 2: `3a71bd9248684aba768bf175b73fbcd9300ff284`.
 - Коммит 3: `9689746aad1b16248bc8e002d35fe5b3eaf77581`.
 - Коммит 4: `3bcc12ec5bf19130e164251f7232dd9484753d11`.
-- Коммит 5: финальный HEAD ветки (см. `git rev-parse HEAD`).
+- Коммит 5: `b93a82049acb46b7e2ea883f95f07f6f30be7129`.
+- Коммит 6: `53b4fdaadf36e2c1ea347bb500007e524052693f`.
+- Коммит 7: финальный HEAD ветки (см. `git rev-parse HEAD`).
 - `main` не изменялся; merge не выполнялся.
